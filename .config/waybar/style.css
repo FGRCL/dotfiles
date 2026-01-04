@@ -1,0 +1,100 @@
+@define-color monolith-5 rgb (9, 10, 17);
+@define-color monolith-10 rgb (18, 20, 33);
+@define-color monolith-20 rgb (36, 39, 66);
+@define-color indigo rgb (115, 0, 255);
+@define-color chartreuse rgb (140, 255, 0);
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "FantasqueSansM Nerd Font", sans-serif;
+  font-size: 12pt;
+  box-shadow: none;
+  text-shadow: none;
+  transition-duration: 0s;
+}
+
+window#waybar {
+  color: @chartreuse;
+  background-color: @monolith-5;
+}
+
+window#waybar.solo {
+  color: @chartreuse;
+}
+
+#workspaces {
+  margin-right: 5px;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  color: rgba(53, 185, 171, 1);
+}
+
+#workspaces button.focused {
+  color: rgba(115, 186, 37, 1);
+}
+
+#workspaces button.visible {
+  color: rgba(115, 186, 37, 1);
+}
+
+#workspaces button.urgent {
+  color: rgba(33, 164, 223, 1);
+}
+
+#mode,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#idle_inhibitor,
+#custom-layout,
+#custom-power,
+#backlight,
+#clock {
+  margin: 0px 0.5rem 0px 0.5rem;
+  padding: 0px 0.5rem 0px 0.5rem;
+  /* min-width: 30px; */
+}
+
+#cpu,
+#disk,
+#temperature,
+#memory {
+  background-color: @monolith-20;
+  padding: 0px 0.5rem 0px 0.5rem;
+}
+
+#cpu {
+  margin-left: 0.5rem;
+}
+
+#temperature {
+  margin-right: 0.5rem;
+}
+
+#battery.warning {
+  color: rgba(255, 210, 4, 1);
+}
+
+#battery.critical {
+  color: rgba(238, 46, 36, 1);
+}
+
+#battery.charging {
+  color: rgba(217, 216, 216, 1);
+}
+
+#bluetooth.disabled {
+  color: rgba(128, 128, 128, 1);
+}
+
+#bluetooth.off {
+  color: rgba(128, 128, 128, 1);
+}
+
+#bluetooth.connected {
+  color: rgba(115, 186, 37, 1);
+}
