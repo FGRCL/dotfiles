@@ -9,14 +9,17 @@
 		fortune
 		htop
 
-		#development packages
+		#apps
 		firefox
+
+		#development packages
 		yadm
 		nushell
 		tmux
 		lazygit
 		lazydocker
 		k9s
+		direnv
 
 		# neovim packages
 		neovim

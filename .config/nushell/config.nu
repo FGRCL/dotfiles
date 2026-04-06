@@ -16,5 +16,37 @@
 # You can also pretty-print and page through the documentation for configuration
 # options using:
 #     config nu --doc | nu-highlight | less -R
+source direnv.nu
 
 $env.config.buffer_editor = "nvim"
+$env.PATH ++= ['~/.cargo/bin']
+$env.PATH ++= ['~/.nix-profile/bin']
+
+def "metapac edit" [] {
+  cd ~/.config/metapac;
+  nvim;
+  metapac clean;
+  metapac sync;
+}
+
+def "packages edit" [] {
+  cd ~/.config/home-manager;
+  nvim home.nix;
+  home-manager switch;
+}
+
+def "packages update" [] {
+  cd ~/.config/home-manager;
+  nix flake update;
+  home-manager switch;
+}
+
+def lg [] {
+  lazygit
+}
+
+
+def ld [] {
+  lazydocker
+}
+
