@@ -1,10 +1,15 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/catpuccin-latte.toml"
+]
+
 [font]
 normal.family = "FantasqueSansM Nerd Font"
 bold.family = "FantasqueSansM Nerd Font"
 italic.family = "FantasqueSansM Nerd Font"
 bold_italic.family = "FantasqueSansM Nerd Font"
 
-size = 12
+size = 13
 
 [terminal]
 shell = "nu"
