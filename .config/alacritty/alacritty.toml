@@ -9,7 +9,7 @@ bold.family = "FantasqueSansM Nerd Font"
 italic.family = "FantasqueSansM Nerd Font"
 bold_italic.family = "FantasqueSansM Nerd Font"
 
-size = 13
+size = 10
 
 [terminal]
 shell = "nu"
