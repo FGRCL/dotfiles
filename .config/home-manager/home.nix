@@ -5,9 +5,15 @@
 	home.homeDirectory = "/home/francois";
 	programs.home-manager.enable = true;
 
+	nix = {
+	  package = pkgs.nix;
+	  settings.experimental-features = [ "nix-command" "flakes" ];
+	};
+
 	home.packages = with pkgs; [
 		fortune
 		htop
+		xclip
 
 		#apps
 		firefox
@@ -20,6 +26,9 @@
 		lazydocker
 		k9s
 		direnv
+
+		#rust
+		rustup
 
 		# neovim packages
 		neovim

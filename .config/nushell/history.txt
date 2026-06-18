@@ -1,0 +1,2409 @@
+ls
+cd ..
+exit
+ls
+cd dotfiles/
+ls
+cd .
+d..
+d ..
+cd ..
+rm -r dotfiles/
+ls
+mkdir git
+cd git/
+ls
+nvim
+cd .
+cd ..
+cd .config/alacritty/
+ls
+nvim alacritty.toml
+a
+cd ..
+paru --help
+man paru
+paru --list
+man paru
+paru -Q
+paru -Qm
+pacman -Qm
+pacman -Q
+pacman -Qe
+pacman -Qi
+pacman -Qe
+metapac
+metpac update-all arch
+metapac update-all arch
+metapac update-all --help
+metapac update-all --backends arch
+pacman -Qe
+tk
+time
+pacman -Qe
+ls
+cd git
+ls
+cd ..
+clear
+nvim .config/metapac/groups/packages.toml
+metapac sync
+ls
+git status
+nix-shell -p cowsay lolcat
+sudo nix-shell -p cowsay lolcat
+nix
+nix-shell
+nix-run
+sudo nix-shell
+sudo nix-shell -p cowsay lolcat
+nix
+sudo nix
+nvim .config/metapac/groups/packages.toml
+metapac 
+metapac clean
+clear
+pacman remove
+pacman -R nix
+sudo pacman -R nix
+nvim .config/metapac/groups/packages.toml
+ls
+nvim
+git status
+nix-shell
+metapac sync
+nix-shell
+nix-shell -p cowsay lolcat
+sudo nix-shell -p cowsay lolcat
+echo $NIX_PATH
+echo $env.NIX_PATH
+echo $env.CASROOT
+sudo nix-env -iA nixpkgs.hello
+groups
+sudo groups
+nix-users
+env -u NIX_PATH nix-shell
+sudo env -u NIX_PATH nix-shell
+sudo env -u NIX_PATH nix-shell -p cowsay
+nix-shell -p cowsay lolcat
+sudo nix-shell -p cowsay lolcat
+nvim .config/metapac/groups/packages.toml
+pacman -R nix
+sudo pacman -R nix
+curl -L https://nixos.org/nix/install | sh -s -- --daemon
+bash
+metapac sync
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+sudo nix-channel --update
+nix-env -iA nixpkgs.hello
+sudo nix-env -iA nixpkgs.hello
+nix-shell -p cowsay lolcat
+sudo nix-shell -p cowsay lolcat
+pacman -R nix
+sudo pacman -R nix
+nvim .config/metapac/groups/packages.toml
+metapac sync
+nvim .config/metapac/groups/packages.toml
+metapac sync
+nix-shell -p cowsay lolcat
+sudo nix-shell -p cowsay lolcat
+sudo pacman -R nix
+sudo nix-shell -p cowsay lolcat
+nix --version
+nvim .config/metapac/groups/packages.toml
+meta
+metapac sync
+sudo nix-shell -p cowsay lolcat
+nix --version
+nix flake init
+nix install 
+nix-shell --help
+man nix
+man nix-shell
+sudo nix-shell -p cowsay lolcat
+sudo man nix-shelkl
+sudo man nix-shell
+sudo nix-shell -p cowsay lolcat -I sdfasdf
+sudo nix-shell -I asdf  -p cowsay lolcat 
+sudo nix-channel --list
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+sudo nix-channel --update
+sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+sudo nix-channel --update
+sudo nix-shell -I asdf  -p cowsay lolcat 
+ls
+sudo nix-shell -p cowsay lolcat 
+sudo nix-shell -p cowsay lolcat --run nu
+ls
+cd git/
+ls
+cd ..
+yadm status
+yadm diff
+ls
+nix-shell '<home-manager>' -A install
+sudo nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+sudo nix-channel --update
+sudo nix-shell '<home-manager>' -A install
+home-manager
+home-manager packages
+sudo home-manager packages
+unshare --user --pid echo YES
+sudo nix-shell -p geoclock
+nix-run geoclock
+nix-shell -p geoclock --run geoclock
+sudo nix-shell -p geoclock --run geoclock
+.config
+top
+btop
+broot
+bat
+fzf
+z
+zoxide
+nvim
+home-manager switch
+sudo home-manager switch
+mkdir -m 0755 ~/.nix
+bash 
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+nix-user-chroot
+nix-shell
+sudo nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+$ cargo install nix-user-chroot
+cargo install nix-user-chroot
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+metapac cargo unmanaged
+metapac unmanaged cargo
+metapac 
+metapac unmanaged 
+exit
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+cargo install nix-user-chroot
+nix-user-chroot 
+bash
+echo $env.PATH
+$env.PATH ++= ['~/.cargo/bin']
+nix-user-chroot 
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+nix-shell
+nix-user-chroot ~/.nix bash
+nix-env
+su 
+$nu.config-path
+config nu
+cd .config/
+ls
+nvim nushell/
+cat $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
+cat $env.HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
+cat ~/.nix-profile/etc/profile.d/hm-session-vars.sh
+nix-shell '<home-manager>' -A install
+sudo nix-shell '<home-manager>' -A install
+echo $env.HOME
+echo ~
+source 
+nvim ~//.nix-profile/etc/profile.d/hm-session-vars.sh
+cat  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
+cat  ~/.nix-profile/etc/profile.d
+home-manager switch
+sudo home-manager switch
+exit
+bash
+ls
+ls -a
+ls .nix-profile
+cat .nix-profile
+ls
+ls -a
+cd .nix-profile
+readlink -f .nix-profile
+cd .config/
+ls
+nvim
+nix flake init
+exit
+nix flake init
+home-manager test
+home-manager build
+sudo home-manager switch
+cd .config/
+ls
+cd ..
+ls
+cd .config/
+ls
+mkdir -m 0755 ~/.nix
+bash
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+cargo install nix-user-chroot
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+cd .cargo/
+ls
+nvim
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+.cargo/bin/
+ls
+./nix-user-chroot
+cd ..
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+cd .cargo/bin
+pwd
+cd ..
+nix-user-chroot ~/.nix bash -c 'curl -L https://nixos.org/nix/install | sh'
+ls
+nix-shell -p geoclock --run geoclock
+exit
+nix-user-chroot ~/.nix nu
+nix-se
+nix-shell -p geoclock --run geoclock
+home-manager build
+sudo home-manager switch
+which home-manager
+echo $env.PATH
+su
+home-manager build
+sudo home-manager switch
+su
+sudo echo $PATH
+sudo echo $env.PATH
+sudo echo ...$env.PATH
+sudo which home-manager
+su
+exit
+nvim ~/.nix-profile/etc/profile.d/hm-session-vars.sh
+nvim $env.HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
+echo $env.HOME
+nvim ~/.nix-profile/etc/profile.d/hm-session-vars.sh
+cat ~/.nix-profile/etc/profile.d/hm-session-vars.sh
+nvim
+cd .config/
+home-manager-path
+which home-manger
+sudo $env.PATH ++= [${which home-manager}] home-manager
+which home-manger
+home-manager
+$env.PAT
+$env.PATH
+cat ./nix
+cat ./nix-profile/bin
+nvim
+home-manager
+sudo home-manager 
+sudo echo/
+sudo echo ...$env.PATH
+ls /nix/var/nix/profiles/default/bin
+sudo echo $PATH
+sudo echo ...$env.PATH
+ls .nix-profile/bin
+ls ./.nix-profile/bin
+ls ./.nix-profile/
+ls ./.nix-profile
+ls ./.nix-profile/.nix-profile/bin
+ls ./.nix-profile/
+ls -a
+home-manager
+which home-manger
+which home-manager
+cd .config/
+nvim
+sudo echo ...$env.PATH
+echo $env.PATH
+ls /nix/var/nix/profiles/default/bin
+echo $env.PATH
+home-manager
+which home-manager
+sudo which home-manager
+sudo echo ...$env.PATH
+man ln
+which home-manager
+ln /nix/var/nix/profiles/default/bin/home-manager /usr/local/bin/home-manager
+sudo ln /nix/var/nix/profiles/default/bin/home-manager /usr/local/bin/home-manager
+ls /usr/local/bin/home-manager
+home-manager
+sudo home-manager build
+sudo home-manager news
+sudo home-manager switch
+zoxide
+z
+zoxide
+z
+cd .config/
+htop
+fortune
+nvim
+sudo home-manager switch
+zoxide
+fortune
+sudo zoxide
+sudo htop
+home-manager-path
+sudo home-manager-path
+nvim
+cd nushell/
+cd ..
+ls
+mkdir nix-shell/
+ls
+nvim
+cd nix-shell/
+nix flake init
+nix --extra-experimental-features flake init
+nix --extra-experimental-features nix flake init
+nvim
+cd ..
+cd nix/
+ls
+nvim nix.confg
+nix flake init
+cd ../nix-shell/
+nix flake init
+nix --extra-experimental-features flake init
+nix flake --extra-exprimental-features init
+nix --extra-experimental-features flake init
+nix --extra-experimental-features 'nix-command flake' flake init
+nix --extra-experimental-features flakes flake init
+nix --extra-experimental-features flake flake init
+nix --extra-experimental-features 'flake' flake init
+nix --extra-experimental-features 'nix-command flake' flake init
+nix --extra-experimental-features 'nix-command flakes' flake init
+sudo nix --extra-experimental-features 'nix-command flakes' flake init
+ls
+nvim flake.nix
+nix flake
+sudo nix --extra-experimental-features 'nix-command flakes' flake 
+sudo nix --extra-experimental-features 'nix-command flakes' flake check
+sudo nix --extra-experimental-features 'nix-command flakes' flake info
+nix-shell
+sudo nix-shell
+nix develop
+sudo nix --extra-experimental-features 'nix-command flakes' develop
+nix --version
+sudo systemctl stop nix-daemon.service
+nix run home-manager/release-23.11 -- uninstall
+nix run geoclock
+home-manager uninstall
+sudo home-manager uninstall
+rm /usr/local/bin/home-manager
+sudo rm /usr/local/bin/home-manager
+sudo systemctl disable nix-daemon.socket nix-daemon.service
+sudo systemctl daemon-reload
+sudo rm -rf /etc/nix /etc/profile.d/nix.sh /etc/tmpfiles.d/nix-daemon.conf /nix ~root/.nix-channels ~root/.nix-defexpr ~root/.nix-profile
+for i in $(seq 1 32); d<\n>  sudo userdel nixbld$i<\n>done<\n>sudo groupdel nixbld
+nvim test.sh
+chmod +x test.sh
+./test.sh
+cd /etc/bashrc
+cat /etc/bash.bashrc
+cat /etc/profile
+cat /etc/zshrc
+cat /etc/zsh/zprofile
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+nix run geoclock
+ls -a
+cd /nix/
+ls
+$ rm -rf /nix
+rm -rf /nix
+sudo rm -rf /nix
+cd /nix
+cd ~
+sudo rm -rf /nix
+cat ./nix-profile
+ls -L .nix-profile
+ls -P .nix-profile
+ls -L .nix-profile
+ls  .nix-profile
+ls -L .nix-profile
+bash
+readlink -f .nix-profile
+rm -r .nix-profile
+cd .config/
+nvim
+nix
+.config/
+ls
+nvim
+metapac clean
+metapac sync
+man journalctl
+metapac update-all --backends arch
+journalctl -b -0
+cd ..
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+nixbld
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+nixbld 
+nixbld
+pacman -R nix
+sudo pacman -R nix
+pacman -S nix
+sudo pacman -S nix
+sudo pacman -R nix
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+curl -fsSL https://install.determinate.systems/nix | sh -s -- uninstall
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+curl -fsSL https://install.determinate.systems/nix | sh -s -- uninstall
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+nvim test.sh
+sudo userdel nixbld950
+sudo userdel 
+who
+sudo groupdel nixbld
+sudo userdel nixbld01
+sudo userdel nixbld02
+sudo userdel nixbld03
+sudo userdel nixbld04
+sudo userdel nixbld05
+sudo userdel nixbld06
+sudo userdel nixbld07
+sudo userdel nixbld08
+sudo userdel nixbld09
+sudo userdel nixbld10
+sudo groupdel nixbld
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+nix run geoclock
+nix
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+curl -fsSL https://install.determinate.systems/nix | sh -s -- uninstall
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish
+. /nix/var/nix/profiles/default/etc/profile.d/nix.sh
+nvim /nix/var/nix/profiles/default/etc/profile.d
+curl -fsSL https://install.determinate.systems/nix | sh -s -- uninstall
+curl -L https://nixos.org/nix/install | sh -s -- --daemon
+nix
+nix --version
+$ rm -rf /nix
+rm -rf /nix
+sudo rm -rf /nix
+sudo systemctl stop nix-daemon.service
+sudo systemctl disable nix-daemon.socket nix-daemon.service
+sudo systemctl daemon-reload
+sudo rm -rf /etc/nix /etc/profile.d/nix.sh /etc/tmpfiles.d/nix-daemon.conf /nix ~root/.nix-channels ~root/.nix-defexpr ~root/.nix-profile
+./test.sh
+ls
+nvim test.sh
+curl -sSf -L https://install.lix.systems/lix | sh -s --
+curl -sSf -L https://install.lix.systems/lix | sh -s -- install
+nix
+nix --version
+curl -sSf -L https://install.lix.systems/lix | sh -s -- uninstall
+nix
+nix --version
+clear
+metapac
+metapac sync 
+metapac unmanaged
+cd .config/
+nvim
+pacman -Qe
+cd .config/
+nvim 
+nvim
+metpac sync
+metapac clean sync
+nvim
+metapac sync
+metapac clean sync
+nvim
+npm
+nodejs
+node
+nvim metapac/
+luarocks
+cd .config/
+nvim
+metapac sync
+nix --version
+sudo nix-shell -p geoclock --run geoclock
+sudo sudo nix-shell -p geoclock --run geoclock
+sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+sudo nix-channel --update
+nix-env -iA nixpkgs.hello
+sudo nix-env -iA nixpkgs.hello
+hello
+cat /nix/store/
+grep hello
+cd ..
+hello
+cd .config/
+nvim nushell/
+hello
+echo $env.PATH
+ls ~/.nix-profile/bin/
+ls -L ~/.nix-profile/bin/
+ls --help ~/.nix-profile/bin/
+ls -l ~/.nix-profile/bin/
+zsh
+exit
+zsh
+zash
+zsh
+exit
+nix config
+nix
+nix-config
+nix-env -iA nixpkgs.hello
+sudo nix-env -iA nixpkgs.hello
+hello
+echo $env.PATH
+ls -a
+sudo systemctl restart nix-daemon.service
+sudo systemctl enable nix-daemon.service
+sudo systemctl status nix-daemon.service
+ls
+ls -a
+cat /etc/profile.d/nix.sh
+nix-env --help
+nix-env -q
+ls
+ls -a
+hello
+nix-shell -p geoclock 
+nix-shell -p zoxide
+z
+exit
+nix-shell -p zoxide --command nu
+exit
+nix-shell -p geoclock --run geoclock --command nu
+exit
+nix-shell -p geoclock --run neovim --command nu
+nix-env --config
+nix-env --help
+man nix-env
+cat /etc/nix/nix.conf
+echo $env.NIX_CONF_DIR
+echo $env.NIX_USER_CONF_FILES
+echo $env.XDG_CONFIG_DIRS
+echo $env.XDG_CONFIG_HOME
+cd .config/
+echo $env.XDG_CONFIG_HOME
+cat /etc/profile
+cd .
+cd ..
+.con
+cd .config/
+nvim
+echo $env.XDG_CONFIG_HOME
+nvim
+echo $env.XDG_CONFIG_HOME
+nix flake
+nix-env --query
+nix-env --list-generation
+cd .config/nix-shell/
+nix flake 
+nix flake show
+nix flake info
+nix develop
+hello
+nix-e
+sudo nix-env
+sudo nix-env -query
+sudo nix-env --query
+sudo nix-env --uninstall hello
+hello
+nix develop
+nix 
+nix --help
+nix config
+nix config show
+nix config check
+nix config show
+nix
+nix --help | less
+nix --help 
+nix env
+niv env install 
+niv env help
+nix env 
+nix env  --help
+nix env shell 
+nix env shell geoclock
+nix env shell --help
+nix env shell nixpkgsb#geoclock
+nix env shell nixpkgs#geoclock
+nix develop
+nix-env -p geoclock
+nix-shell -p geoclock
+ls
+rm -r test.sh
+ls
+cd .config/
+nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+nix-channel --update
+nix-shell '<home-manager>' -A install
+pwd
+nix-shell '<home-manager>' -A install
+zoxide
+htop
+fortune
+fortune --help
+fortune
+fortune 
+home-manager
+home-manager --ehlp
+home-manager --help
+nix-shell '<home-manager>' -A install
+home-manager --help
+home-manager packages
+home-manager --help
+home-manager edit
+nix flake use
+home-manager switch
+fortune
+home-manager switch
+zoxide
+z
+metapac
+home-manager switch
+home-manager search
+home-manager search test
+nix search test
+nix search kmail
+nix-search
+nix search --help
+nix search nixpkgs test
+git status
+metapac clean; metapac install
+metapac clean; metapac sync
+home-manager switch
+nvim
+home-manager switch
+metapac clean; metapac sync
+home-manager switch
+nvim
+jaca
+java
+metapac clean
+which java
+pacman -Qe
+pacman -Qe | grep java
+pacman -Qe | grep javac
+pacman -Qe | grep jdk
+pacman -Q | grep java
+pacman -Q | grep jdk
+which ruby
+which unzip
+nix search nixpkgs unzip
+nix search nixpkgs composer
+home-manager switch
+nix search nixpkgs composer
+home-manager switch
+composer
+home-manager switch
+composer
+home-manager switch
+composer
+nvim
+home-manager switch
+nvim
+home-manager switch
+trivy
+which trivy
+trivy
+cd .config/
+nvi
+nvim
+home-manager switch
+nvim
+home-manager switch
+nvim
+cd .config/nvim
+l
+lazygit
+home-manager switch
+lazygit 
+git status
+git pull
+git checkout main
+lazygit 
+cd ..
+nvim
+curl https://github.com/aquasecurity/trivy/releases/download/v0.69.4/trivy_0.69.4_Linux-64bit.tar.gz
+cd ../git/
+git clone git@github.com:mason-org/mason-registry.git
+cd mason-registry/
+nvim
+lazygit 
+nvim
+lazygit 
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:FGRCL/mason-registry.git
+git remote -v
+lazygit 
+git config global --user.name "Francois LaBerge"
+git commit 
+git config --global user.name "Francois LaBerge"
+git config --global user.email "FGCRLaBerge@gmail.com"
+lazygit 
+pwd
+nvim
+lazygit 
+nvim
+nvim
+cd ..
+home-manager switch
+nvim
+cd. .
+ls
+nvim
+cd mason-registry/
+nvim
+lazygit 
+nvim
+cd ..
+yadm status
+yadm .config/home-manager/home.nix
+yadm add .config/home-manager/home.nix
+yadm status
+yadm commit -m "add home manager config"
+yadm push
+yadm diff
+yadm add .config/alacritty/alacritty.toml
+yadm commit -m "add nushell to alacritty config"
+yadm push
+yadm status
+cd .config/nvim/
+lazygit 
+git push
+cd ..
+yadm status
+home-manager switch
+nvim
+yadm statys
+yadm status
+yadm add nvim
+yadm status
+yadm push
+yadm status
+cd ..
+yadm
+yadm status
+pactl set-sink-volume @DEFAULT_SINK@ 150%
+metapac clean; metapac sync
+metapac sync
+metapac clean; metapac sync
+metapac install
+metapac sync
+nvim
+nix run home-manager/master -- init --switch
+man home-configuration.nix
+cd .config/
+cd nvim/
+nvim
+cd ..
+nvim
+orcaslicer
+cd home-manager/
+nvim
+nix flake
+nix flake update
+home-manager switch
+nvim
+cd ..
+nvim
+metapac edit
+eight
+packages edit 
+packages update
+metapac edit
+cd .config/
+nvim nushell/config.nu
+metapac edit
+alacritty
+metapac edit
+cd .config/
+packages edit 
+metapac edit
+me/
+metapac edit
+packages edit 
+config nu
+direnv
+cd ..
+cd francois/git/
+git clone git@github.com:FGRCL/parking-lot.git
+cd parking-lot/
+ls
+nvim
+nix flake new -t github:nix-community/nix-direnv .
+echo "use flake" >> .envrc && direnv allow
+echo "use flake" >> .envrc; direnv allow
+ls
+nvim
+cd..
+cd ..
+cd parking-lot/
+ls
+cd git/parking-lot/
+cd ../parking-lot/
+c d..
+cd ..
+cd parking-lot/
+build
+cd ..
+cd parking-lot/
+build
+echo $0
+echo $env.0
+echo $0
+echo $SHELL
+echo $env.SHELL
+cd ..
+cd parking-lot/
+cd ..
+cd parking-lot/
+build
+cd ..
+cd parking-lot/
+build
+cd git/parking-lot/
+b
+build
+cd git/parking-lot/
+cd ..; cd parking-lot
+cd ..
+cd parking-lot/
+build
+source scripts.sh
+source scripts.nu
+build
+cd .
+cd ..
+cd git/parking-lot/
+cd ..
+cd parking-lot/
+cd ..
+cd parking-lot/
+cd ..
+cd parking-lot/
+cd ..
+cd parking-lot/
+build
+cd ..
+cd parking-lot/
+direnv allow
+nvim
+yarn run build
+lazygit 
+nvim
+lazygit 
+config nu
+lg
+cd parking-lot/
+cd git/parking-lot/
+cd ..
+bash
+journalctl -b -0
+journalctl -b -1
+metapac edit
+journalctl -b -1
+memtest
+ciredyn
+coredumpctl
+metapac edit
+mcelog
+sudo mcelog
+metapac edit
+cd git/parking-lot/
+build
+cd. .
+source scripts.nu
+source scripts.sh
+cd ..
+cd parking-lot/
+cd ..
+cd parking-lot/
+build
+cd ..
+cd git/parking-lot/
+direnv allow
+cd ..
+cd parking-lot/
+build
+cd ..
+cd parking-lot/
+direnv allow
+cd ..
+cd parking-lot/
+build
+cd scripts/
+cd ..
+$env.PATH
+cd scripts/
+chmod +x build.sh
+cd ..
+build
+build.sh
+cd ..
+cd parking-lot/
+direnv allow
+cd ..
+cd parking-lot/
+build
+cat /bin/env
+cd ..
+cd parking-lot/
+cd scripts/
+chmod +x hello.py
+cd ..
+hello.py
+build.sh 
+journalctl -b -1
+journalctl -b -1 -p
+journalctl -b -1 -p 3
+metapac update-all --backends arch
+cd git/parking-lot/
+build
+nix develop
+exit
+cd git/parking-lot/
+nvim
+nix develop
+yadm pull
+yadm enter lazygit
+config nu
+cd .config/nvim/
+lazygit 
+git pull --rebase
+lazygit 
+nvim
+cd ..
+yadm enter lazygit
+cd .config/nvim/; lazygit 
+cd ..
+yadm enter lazygit
+git pull --rebase
+yadm pull --rebase
+yadm enter lazygit
+tmux
+cd git/parking-lot/
+direnv allow
+build
+git status
+nix develop
+direnv disable
+direnv help
+direnv deny
+cd ..
+cd parking-lot/
+nix develop
+direnv allow
+cd ..
+bash
+cd parking-lot/
+nix develop -c $env.SHELL
+nix develop 
+nix develop --help
+echo $env.SHELL
+build
+nix develop 
+test
+exit
+nix develop -c nu
+test
+exit
+nix develop -c nu
+exit
+cd git/parking-lot/
+test
+exit
+nix develop -c nu
+test
+exit
+cd git/parking-lot/
+test
+cd ..
+cd parking-lot/
+test
+exit
+nix develop -c nu
+exit
+nix develop -c nu
+exit
+cd git/parking-lot
+nix develop
+build
+exit
+nix develop -c nu
+git status
+test
+yarn
+cd ..
+cd parking-lot/
+cd git/parking-lot
+journalctl -b -1 -p 3
+metapac update-all --backends arch
+metapac edcit
+metapac edit
+mise activate 
+mise activate bash
+mise activate nu | save 
+mise activate nushell | save misenu.nu
+mise activate nu | save misenu.nu
+mise activate nu | save misenu.nu --help
+mise activate nu | save misenu.nu -f -p
+mise activate bash | save misebash.sh -f -p
+nvim
+cd git/parking-lot
+nvim
+nix develop
+nvim
+tmux
+journalctl -b -1 -p 3
+journalctl -b -1 -p 3 -xb
+journalctl -p 3 -xb
+man journalctl
+journalctl -x -1 -p 3 -x
+journalctl -b -1 -p 3 -x
+journalctl -b  -x
+journalctl -b -1  -x
+journalctl -b -1 -x -p 3
+journalctl -b -1 -x 
+journalctl -b -1 -x | pbcopy
+qx
+xckiop
+xclip
+journalctl -b -1 -x 
+journalctl -b -1 -x  | save logs
+nvim logs
+rm logs
+journalctl -e
+killall kdeconnectd
+kdeconnect-cli --refresh
+kdeconnect-cli -l
+netcat -z -v x.x.x.x 1714-1764
+netstat -z -v x.x.x.x 1714-1764
+netstat
+journalctl -e
+journalctl -e -b -1 -x
+journalctl -e -b -2 -x
+man journalctl
+journalctl -p 3 -x
+journalctl -p 2 -x
+journalctl -p 1 -x
+journalctl -p 5 -x
+journalctl -p 4 -x
+journalctl -p 1 -x
+steam
+metapac edit
+pkill orcaslicer
+who -u
+kill 1105
+python
+metapac edit
+metapac update-all --backends arch
+metapac edit
+cargo 
+tmux 
+yadm pull
+cd .config/git
+cd .config/nvim/; lazygit 
+cd ..
+cd tmux/
+nvim
+tmux
+nvim
+$env.SHELL
+$SHELL
+/bin/nu
+./bin/nu
+./bin/nushell
+/bin
+ls
+fzf
+which nu
+cd ..
+cd .config/tmux/
+nvim
+exit
+tmux
+fzf /etc/shells
+cat /etc/shells
+ls /etc/shells | fzf
+chsh -l
+which nu
+nvim
+cd ..
+cd git
+exit
+exit
+ls
+cd ..
+git 
+mv git src
+ls
+cd src/
+ls
+mkdir docs
+cd docs/
+cd ..
+cd src/docs/
+cargo init
+exit
+cargo 
+man cargo
+cargo 
+config nu
+packages edit
+cargo
+cargo init
+cargo add skim
+cargo run
+cargo install skimn
+clear
+cargo install skim
+sk
+fzf
+sk 
+fzf
+cargo run
+whatis .
+whatis 
+man whatis
+apropos .
+man -k .
+cargo run
+fzf 
+cargo run
+cargo un
+cargo run
+cargo ru
+cargo run
+nvim
+cd src/docs/
+nvim
+tmyx
+cargo run
+apropos 
+apropos .
+cargo add regex
+cargo run
+cd .config/nvim/
+nvim
+cd ..
+ls
+cd src/
+ls
+mkdir servies
+rm -r servies/
+nvim main.go
+ls
+nvim main.go
+nvim
+nvim main.go
+nvim
+nvim main.go
+tree-sitter-cli
+tree-sitter
+tree-sitter parse main.go
+cd ..
+cd src/
+git clone git@github.com:tree-sitter/tree-sitter-go.git
+cd tree-sitter-go/
+exit
+cd ..
+cd src/
+tmux
+cd src/
+lsn
+cd ..
+cd .config/nvim/
+ls
+metapac edit
+mkdir notes
+cd notes/
+nvim "new balance issue.md"
+metapac edit
+asdf
+cd src/docs/
+nvim
+cargo run
+journalctl -p 1 -x
+cargo run
+bkk
+cargo run
+docs
+apropos .
+man XrmPutLineResource 
+fzf
+cargo run
+cd /usr/man
+cd /usr/share/man/
+ls
+man ko
+cd ko/
+ls
+cd man1/
+ls
+man colrm
+man apropos
+apropos port
+arpreq
+man arpreq
+man acct
+exit
+cargo run
+cd src/docs/
+tmyx
+cargo run
+apropos .
+cargo run
+jj
+cargo run
+man acct
+man man
+cargo run
+man man
+cargo run
+cargo rum
+cargo run
+10;rgb:d8d8/d8d8/d8d811;rgb:1818/1818/1818asdf
+ls
+$env.PATH
+/usr/local/bin/
+ls
+cd ..
+cd sbin/
+ls
+cd //
+cd /usr/bin/
+ls
+nvim
+touch docs
+docs
+ls
+nvim
+sudo touch docs
+chmod +x dcs
+chmod +x docs
+sudo chmod +x docs
+sudo nvim docs
+nvim docs
+sudo rm docs
+apropos .
+cd ..
+cd ~/src/docs/
+./docs.sh
+chmod +x docs.sh
+./docs.sh
+apropos .
+./docs.sh
+apropos
+apropos .
+./docs.sh
+./
+./docs.sh
+[[{} ~= `([^\s^\)]+)`]]
+[[{} ~= `([^\s^\)]+)`]] | echo ${BASH_REMATCH[1]}
+[[{} ~= `([^\s^\)]+)`]]
+[[{} ~= `([^\s^\)]+)`]]; echo ${BASH_REMATCH[1]}
+[[{} ~= `([^\s^\)]+)`]]; echo BASH_REMATCH[1]
+[[{} ~= `([^\s^\)]+)`]]
+./docs.sh
+man grep
+./docs.sh
+cd ~/src/docs/
+nvim
+./docs.sh
+grep -E '([^\s^\)]+' asdf
+grep -E '([^\s^\)]+)' asdf
+echo asdf | grep -E '([^\s^\)]+)' 
+grep -E '([^\s^\)]+)' < test
+./docs.sh
+chmod +x display.sh
+./docs.sh
+./display.sh test asdf 
+./display.sh what is the settigns
+echo foo bar baz | fzf --with-nth 2..
+man fzf(1)
+./docs.sh
+packages edit
+metapac edit
+./docs.sh
+apropos .
+. docs.sh
+source docs.sh
+. docs.sh
+./docs.sh
+man fzf
+apropos .
+man fzf
+apropos .
+./docs.sh
+cd docs/
+./docs.sh
+man read
+./docs.sh
+man fzf
+./docs.sh
+man fzf
+./docs.sh
+./docs.sh | less
+./docs.sh
+./docs.sh | less
+apropos .
+apropos . | pbcopy
+xcip
+xclip
+packages edit
+xclip
+apropos . | xclip -selection clipboard
+./docs.sh | less
+man fzf 
+./docs.sh | less
+apropos . 
+./docs.sh | less
+chmod +x list.sh
+chmod +x test.sh
+./test.sht
+./test.sh
+qx
+./test.sh
+./test.h
+./test.sh
+man regex
+man 3 rgex
+man 3 regex
+man apropos
+apropos test
+apropos port
+man apropos
+man regex
+./test.sh
+./docs.sh | less
+./docs.sh
+fzf
+./docs.sh
+cd docs/
+./docs.sh
+man fzf 
+./docs.sh
+man fzf 
+./docs.sh
+apropos . | cargo run
+apropos . | cargo run | less
+apropos . | cargo run 
+apropos . | cargo run | less
+apropos . | cargo run
+apropos . | cargo run ----
+apropos . | cargo run -- ----
+apropos . | cargo run -- ::::
+./docs.sh
+cargo build
+ls
+cd target/
+ls
+cd ..
+ls
+cargo build --help
+cargo build --release
+./docs.sh
+cd docs/
+./docs.sh
+man IO::Socket::IP
+./docs.sh
+cd docs/
+./docs.sh
+man fzf
+man man
+man -a intro
+man man
+man -K port
+man man
+./docs.sh
+man man
+./docs.sh
+man man
+./docs.sh
+man man
+./docs.sh
+./docs.sh
+man man
+./docs.sh
+man groff
+man troff
+exit
+./docs.sh
+firefox --help
+help firefox 
+docs firefox
+./docs.sh
+cargo build --release
+./docs.sh
+cargo build clean
+cargo build --eh
+cargo build --help
+cargo clean
+cargo build --release
+./docs.sh
+cargo 
+git init
+lazygit 
+git remote add origin git@github.com:FGRCL/docs.git
+git branch -M main
+git push -u origin main
+nvim
+exit
+nvim /usr/share/pacman/
+exit
+tmux
+exit
+cd docs/src
+cd src/docs/
+pacman -Qdtq 
+pacman -Qdtq | pacman -Rns -. 
+pacman -Qdtq | pacman -Rns -
+sudo pacman -Qdtq | pacman -Rns -
+cargo build --help
+namcap
+metapac edit
+nvim
+metapac edit
+namcap
+metapac edit
+namcap
+packages edit
+paru
+paru --help
+paru --sync namcap
+namcap
+namcap PKGBUILD
+pkgctl
+pkgctl PKGBUILD
+makepkg -si
+pacman -Qet
+makepkg 
+man makepkg
+makepkg 
+man makepkg
+makepkg -g
+makepkg 
+makepkg -g >> PKGBUILD
+nvim
+makepkg
+nvim
+makepkg
+cocs
+docs
+dolpin .
+open .
+dolphin .
+lazygit 
+ls
+lazygit 
+makepkg
+yadm pull
+makepkg -f
+lazygit 
+makepkg 
+tmux
+tmux kill-server
+exit
+cd .config/nvim/
+cd ../alacritty/
+nvim
+cd ../tmux/
+exit
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+rm -r ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+exit
+cd ../nvim/
+lazygit 
+git pull --rebase
+lazygit 
+git pull --rebase
+lazygit 
+exit
+tmux
+tmux kill-server
+tmux
+exit
+tmux
+tmyx
+cd .config/alacritty/
+cd ../tmux/
+nvim
+exit
+tmux
+tmyx
+metapac edit
+fc-list
+fc-list | grep Iosevka
+fc-list | grep Fantasque
+nvim .config/
+cd .config/alacritty/
+nvim
+cd ..
+fc-list | grep IosevkaNerdFontMono
+cd .config/alacritty/
+cd ..
+cd francois/src/docs/
+nvim
+makepkg 
+lazygit 
+makepkg 
+pacman -U docs-0.0.1-1-any.pkg.tar.zst
+sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+docs
+docs-parse
+sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+makepkg 
+makepkg -f 
+makepkg -f | pacman -U docs-0.0.1-1-any.pkg.tar.zst
+sudo makepkg -f | pacman -U docs-0.0.1-1-any.pkg.tar.zst
+sudomakepkg -f | pacman -U docs-0.0.1-1-any.pkg.tar.zst
+makepkg -f | sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+makepkg -f; sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+dolphin .
+./docs
+dolphin .
+./docs
+cd ../tmux/
+asdf
+docs
+exit
+nvim
+git status
+pacman -U docs-0.0.1-1-any.pkg.tar.zst
+sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+sudo pacman -U 0.0.1.tar.gz
+./docs-0.0.1-1-any.pkg/docs
+docs-parse
+parse
+dolphin .
+yadm enter lazygit
+exit
+tmux
+cd .config/tmux/
+nvim
+cd ..
+cd tmux/
+ls
+nvim
+cd ..
+ls
+cd ..
+cd .tmux/
+ls
+cd plugins/
+ls
+cd ..
+rm -r .tmux/
+cd .config/tmux/
+ls
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+packages edit
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd .tmux/
+ls
+cd .
+rm -r .tmux/
+cd ..
+rm -r .tmux/
+ls
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+:q
+exit
+nvim
+:wqa
+exit
+yadm enter lazygit
+exit
+yadm enter lazygit
+exit
+tmux
+nvim
+cat ~/.tmux/plugins/tpm/tpm
+exit
+cd .config/tmux/
+metapac edit
+lucidglyph
+nvim
+cat ~/.tmux/plugins/tpm/tpm
+cat ~/.tmux/plugins/tpm/tpm | less
+nvim
+tmux source ~/.tmux.conf
+tmux source tmux.conf
+exit
+metapac edit
+cd ../alacritty/
+fc-list
+nvim
+cd ..
+cd src/docs/
+fc-list | less
+cd ..
+c d..
+cd ..
+cd src/
+git -c init.defaultBranch=master init
+ls
+ls -a
+rm .git/
+rm -r .git/
+mkdir docs-aur
+cd docs-aur/
+git -c init.defaultBranch=master init
+git remote add label ssh://aur@aur.archlinux.org/docs.git
+git pull
+makepkg --printsrcinfo > .SRCINFO
+cd ..
+cd src/
+ls
+cd parking-lot/
+ls
+nix develop
+lazygit 
+nix develop
+source scripts.bash
+source scripts.nu
+build
+source scripts.nu
+build
+lazygit 
+source env.nu
+lazygit 
+nvim ~/.ssh/
+lazygit 
+nvim
+nvim ~/.ssh/config
+lazygit 
+nvim ~/.ssh/config
+git config --global user.name
+nvim ~/.ssh/config
+lazygit 
+nvim ~/.ssh/config
+lazygit 
+ssh-add ~/.ssh/id_ed25519
+ssh-agent -s
+ssh-add ~/.ssh/id_ed25519
+exit
+ssh-add ~/.ssh/id_ed25519
+eval `ssh-agent -s`
+^ssh-agent -c<\n>    | lines<\n>    | first 2<\n>    | parse "setenv {name} {value};"<\n>    | transpose -r<\n>    | into record<\n>    | load-env
+ssh-add ~/.ssh/id_ed25519
+nvim ~/.ssh/config
+lazygit 
+nvim ~/.ssh/config
+lazygit 
+nvim ~/.ssh/config
+lazygit 
+ssh-add ~/.ssh/id_ed25519
+lazygit 
+git push
+git push --set-upstream label master
+build
+source env.nu
+build
+source env.nu
+build
+lazygit 
+nvim ~/.ssh
+LC_ALL=C pacman -V|sed -r 's#[0-9]+#816#g'|md5sum|cut -c1-6
+lazygit 
+paru --sync docs
+lazygit 
+paru --sync docs
+docs
+makepkg -f; 
+nvim /usr/share/pacman/
+makepkg -f; 
+nvim /usr/share/pacman/
+makepkg -f; 
+makepkg -f; sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+docs
+makepkg -f; sudo pacman -U docs-0.0.1-1-any.pkg.tar.zst
+docs
+lazygit 
+build
+lazygit 
+docs
+cd ..
+cd .config/packages/
+cd .config/
+mkdir packages
+cd packages/
+nvim /usr/share/pacman/
+cd ..
+cd src/docs-aur/
+nvim
+cd ../
+cd ../.config/packages/
+makepkg -f
+makepkg --help
+makepkg -si
+pacman --help
+pacman --remove inquisitor
+sudo pacman --remove inquisitor
+pacman -Rns
+sudo pacman --remove inquisitor
+makepkg -si
+pacman -Rns inquisitor
+sudo pacman -Rns inquisitor
+pacman -R inquisitor
+sudo pacman -R inquisitor
+sudo pacman -R librewolf-bin
+pacman -Syy
+sudo pacman -Syy
+sudo pacman -Scc
+sudo pacman -Suu
+pacman -Rscnd
+pacman -Qdtq
+pacman -R startup-notification
+sudo pacman -R startup-notification
+pacman --help
+pacman -Q -help
+pacman -Qdt
+pacman -Qdtq
+exit
+exit
+nvim
+exit
+exit
+exit
+nvim
+exit
+lazygit 
+exit
+nvim
+cd ..
+mkdir docs-homebrew
+cd docs-homebrew/
+metapac edit
+nvim
+cd ../docs-aur/
+brew
+cd ~/src/docs/
+cd ../parking-lot/
+nvim
+nix develop
+lazygit 
+nix develop
+nvim
+metapac edit
+task warrior
+exit
+exit
+tmux
+exit
+metapac edit
+task
+lucidglyph
+metapac edit
+me
+metapac edit
+taswarrior
+taswarrior-tui
+task 
+taskwarrior-tui 
+task 
+task --help
+man task
+ping ender.local
+cd .config/lazygit/
+cd ../
+cd alacritty/
+nvim
+ping ender.local
+ls
+cd notes/
+cd ..
+mv src git
+cd git/
+ls
+cd docs-homebrew/
+cd ..
+mv docs-homebrew/ hombrew-docs
+ls
+mv hombrew-docs/ hombrew-fgrcl
+mv hombrew-fgrcl/ homebrew-fgrcl/
+brew tap-new fgrcl/homebrew-fgrcl
+metapac edit
+brew
+metapc
+metapac edit 
+brew
+brew tap-new fgrcl/homebrew-fgrcl
+sudo brew tap-new fgrcl/homebrew-fgrcl
+brew tap-new fgrcl/homebrew-fgrcl
+rm homebrew-fgrcl/
+brew tap-new fgrcl/homebrew-fgrcl
+metapac edit 
+ruby
+brew tap-new fgrcl/homebrew-fgrcl
+metapac edit 
+taskwarrior-tui 
+kdeconnect-cli -l
+ping 192.168.1.153
+ifconfig
+ipconfig
+sudo ufw allow proto udp from 192.168.127.108 to any port 1714:1764 comment 'KDE Connect UDP' && sudo ufw allow proto tcp from 192.168.127.108 to any port 1714:1764 comment 'KDE Connect TCP' && sudo ufw reload
+sudo ufw allow proto udp from 192.168.127.108 to any port 1714:1764 comment 'KDE Connect UDP'; sudo ufw allow proto tcp from 192.168.127.108 to any port 1714:1764 comment 'KDE Connect TCP' && sudo ufw reload
+sudo ufw allow proto udp from 192.168.127.108 to any port 1714:1764 comment 'KDE Connect UDP'; sudo ufw allow proto tcp from 192.168.127.108 to any port 1714:1764 comment 'KDE Connect TCP'; sudo ufw reload
+ufw
+upacman -Qs firewall
+pacman -Qs firewall
+ufw disable
+sudo ufw disable
+cd git
+brew tap-new fgrcl/homebrew-fgrcl
+metapac edit 
+ruby
+ruby --help
+brew tap-new fgrcl/homebrew-fgrcl
+brew doctor
+metapac edit 
+brew doctor
+cd .config/packages/
+ls
+nvim
+makepkg -si
+man makepkg
+makepkg -si
+makepkg -i
+nvim
+makepkg -i
+makepkg -si
+nvim PKGBUILD
+makepkg -si
+nvim PKGBUILD
+makepkg -si
+nvim PKGBUILD
+makepkg -si
+nvim PKGBUILD
+makepkg -si
+sudo pacman -R inquisitor
+sudo pacman -R ventoy-bin
+nvim PKGBUILD
+sudo pacman -R noctalia-shell
+cd ..
+metapac edit 
+metapac 
+metapac update paru
+metapac update-all paru
+config nu
+exit
+metapac sync --help
+metapac clean --help
+config nu
+exit
+metapac update-all
+metapac edit
+config nu
+metapac edit
+brew doctor
+brew vendor-install ruby
+sudo brew vendor-install ruby
+test
+test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+test -d ~/.linuxbrew; eval "$(~/.linuxbrew/bin/brew shellenv)"
+test -d /home/linuxbrew/.linuxbrew; eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bashrc
+brew install hellop
+brew install hello
+metapac edit
+metapac update-all paru
+metapac update-all
+metapac edit
+metapac update-all
+metapac edit
+metapac update-all
+cd .config/alacritty/
+nvim
+cd ..
+cd git/docs/
+nvim
+cd ..
+cd .config/alacritty/
+ls
+cd ..
+cd nvim/
+lazygit 
+ldd
+bat
+bat init.lua
+lsd
+metapac update-all
+metapac update-all --no-confirm
+docs
+cd src/docs-aur/
+cd git/docs/
+nvim
+tmyx
+cargo run
+cargo run --bin docs
+nvim
+nvi
+exit
+cargo run --bin docs
+exit
+cargo run --bin docs
+cargo run --bin docs
+docs
+cargo run --bin docs
+docs
+cargo run --bin docs
+man man
+tldr man
+tldr --upddate
+tldr --update
+tldr man
+tldr list 
+tldr 
+tldr --list
+tldr zsync
+tldr kubectl
+man kubectl
+tldr docs
+tldr zrun
+tldr
+tldr tldr
+cargo run
+lazygit 
+cargo run --bin docs
+cargo run --bin tldocs
+tldr
+cargo run --bin tldocs
+docs
+cargo install .
+cargo install --path .
+cargo install --help
+docs
+tldocs 
+cargo install --path . --profile release
+docs
+cargo install --path .
+cargo login
+lazygit 
+cargo publish --dry-run
+lazygit 
+cargo publish --dry-run
+lazygit 
+cargo publish --dry-run
+lazygit 
+cargo publish --dry-run
+cargo publish
+lazygit 
+cargo publish
+lazygit 
+cargo publish
+cargo install docs-fzf
+cargo 
+cargo uninstall --path .
+cargo uninstall docs
+cargo install docs-fzf
+docs
+tldocs 
+exit
+lazygit 
+exit
+exit
+nvim ~/.config/alacritty/alacritty.toml
+nvim
+metapac edit 
+vhs
+metapac edit 
+config nu
+metapac edit 
+config nu
+metapac edit 
+exit
+exit
+tmux
+exit
+metapac edit
+vhs
+cd git/docs/
+nvim
+vhs demo/docs.tape
+ls
+open docs.gif
+dolphin .
+mkdir assets
+cd assets/
+cd ..
+rm assets/
+rm docs.gif
+cd demo/
+nvim
+nvi
+vhs docs.tape
+nvim
+nvi
+vhs docs.tape
+vhs tldocs.tape
+vhs tldocs.tape; vhs docs.tape
+jvhs docs.tape
+vhs docs.tape
+docs
+exit
+exit
+nvim
+exit
+tmux
+docs
+tldocs
+docs
+tldocs
+cd src/docs
+cd git/docs/
+nvim
+cd demo/
+vhs docs.tape
+metapac edit
+paru -S iptables
+metapac edit
+firefoxpwa
+alsamixer
+docs
+tldocs
+docs
+ls
+nvim
+metapac sync
+nvim
+cd git/docs/
+ls
+metapac sync
+paru -S neovim
+journalctl -p 1 -x
+nvim
+metapac sync
+pacman 
+pacman -h
+pacman -h -S
+pacman -S
+sudo !!
+sudo pacman -S
+sudo pacman -h
+sudo pacman -D
+sudo pacman -D help
+sudo pacman -D -h
+sudo pacman -Dk
+pacman -Sh
+pacman -Syy
+sudo !!
+sudo pacman -Syy
+metapac sync
+nvim
+cd notes/
+ls
+nvim
+metpac update
+metpac update-all arch
+metapac update-all --no-confirm
+nvim Kynze.md
+cd ..
+cd git/docs/
+nvim
+lazygit
+git
+exit
+cd git/docs/
+nvinm
+nvim
+tmux
+nvim
+git status
+git add README.md
+git commit -m "Add demo gifs"
+git config --global user.email "FGCRLaBerge@gmail.com"
+git config --global user.name "Francois LaBerge"
+git commit -m "Add demo gifs"
+git push
+nvim
+git add README.md
+git commit -m "Add demo gifs"
+git push
+nvim
+open
+open 
+open .
+dolphin .
+git status
+git add demo/
+git commit -m "Add demo gifs"
+git push
+tape
+cd target/
+nvim
+cd ..
+cd demo/
+nvim
+vhs docs.tape
+vhs tldocs.tape
+cd ..
+git add demo/
+git commit -m "Make gifs smaller"
+git pyh
+git push
+git status
+nvim
+cd demo/
+vhs tldocs.tape
+cd ..
+git add demo/
+git commit -m "Make gifs smaller"
+git push
+cd ..
+cd docs
+cargo install
+rustup default stable
+cargo install
+cargo install --path
+cargo install --path .
+docs
+tldocs
+tldr
+tldocs
+tldr --seed-config
+tldocs
+tldr curl
+tldr --update
+tldr update 
+tldocs
+cd ..
+cd docs/demo/
+vhs tldocs.tape; vhs docs.tape
+cd ..
+git add demo/
+git commit -m "Remake gifs"
+git push
+ls
+cd git/docs
+ntoes
+notes
+cd notes/
+nvim
+cd ..
+cd git/docs
+git status
+git add src/
+git commit -m "remove comments"
+git push
+cd ..
+cd docs-aur/
+ls
+nvim
+n
+cd git/docs/
+nvim
+cargo build 
+cargo build --release
+nvim
+makepkg -si
+nvim
+makepkg -si
+nvim
+makepkg -si
+nvim
+makepkg --printsrcinfo > .SRCINFO
+nvim
+updpkgsums
+makepkg -si
+nvim
+source env.nu
+build
+git status
+git add .SRCINFO
+git add PKGBUILD
+git commit -m "0.0.2"
+git push
+signal
+python
+ssh ender.local
+ssh pi@ender.local
+exit
+metapac edit
+metapac sync
+metapac 
+metapac
+metapac sync
+metapac edit
+sudo pacman -Syu
+pacman --sync alsa-firmware amd-ucode ark awesome-terminal-fonts base bluez-hid2hci bluez-utils btop btrfs-assistant cachy-update cachyos-emerald-kde-theme-git cachyos-fish-config cachyos-hello cachyos-hooks cachyos-iridescent-kde cachyos-kde-settings cachyos-kernel-manager cachyos-keyring cachyos-micro-settings cachyos-mirrorlist cachyos-nord-kde-theme-git cachyos-packageinstaller cachyos-plymouth-bootanimation cachyos-plymouth-theme cachyos-rate-mirrors cachyos-settings cachyos-snapper-support cachyos-v3-mirrorlist cachyos-v4-mirrorlist cachyos-wallpapers cachyos-zsh-config cantarell-fonts cosmic-session cpupower dmraid docs dolphin duf efitools ethtool ffmpegthumbnailer firefoxpwa fsarchiver glances gn gperf gwenview haruna hdparm http-parser hwdetect hwinfo hyprland inetutils kate kcalc kde-gtk-config kdeplasma-addons kitty kwallet-pam libgsf libva-nvidia-driver limine-snapper-sync linux-cachyos-headers linux-cachyos-lts-headers linux-cachyos-lts-nvidia-open linux-cachyos-nvidia-open logrotate lsscsi man-pages meld metapac mtools nano-syntax-highlighting netctl networkmanager-openvpn nfs-utils notification-daemon os-prober partitionmanager patchutils pavucontrol plasma-browser-integration plasma-firewall plasma-login-manager plasma-systemmonitor plasma-thunderbolt poppler-glib pv python-httplib2 rebuild-detector reflector sddm sg3_utils shelly sof-firmware spectacle ufw-extras xf86-video-amdgpu xl2tpd yarn
+sudo !!
+sudo pacman --sync alsa-firmware amd-ucode ark awesome-terminal-fonts base bluez-hid2hci bluez-utils btop btrfs-assistant cachy-update cachyos-emerald-kde-theme-git cachyos-fish-config cachyos-hello cachyos-hooks cachyos-iridescent-kde cachyos-kde-settings cachyos-kernel-manager cachyos-keyring cachyos-micro-settings cachyos-mirrorlist cachyos-nord-kde-theme-git cachyos-packageinstaller cachyos-plymouth-bootanimation cachyos-plymouth-theme cachyos-rate-mirrors cachyos-settings cachyos-snapper-support cachyos-v3-mirrorlist cachyos-v4-mirrorlist cachyos-wallpapers cachyos-zsh-config cantarell-fonts cosmic-session cpupower dmraid docs dolphin duf efitools ethtool ffmpegthumbnailer firefoxpwa fsarchiver glances gn gperf gwenview haruna hdparm http-parser hwdetect hwinfo hyprland inetutils kate kcalc kde-gtk-config kdeplasma-addons kitty kwallet-pam libgsf libva-nvidia-driver limine-snapper-sync linux-cachyos-headers linux-cachyos-lts-headers linux-cachyos-lts-nvidia-open linux-cachyos-nvidia-open logrotate lsscsi man-pages meld metapac mtools nano-syntax-highlighting netctl networkmanager-openvpn nfs-utils notification-daemon os-prober partitionmanager patchutils pavucontrol plasma-browser-integration plasma-firewall plasma-login-manager plasma-systemmonitor plasma-thunderbolt poppler-glib pv python-httplib2 rebuild-detector reflector sddm sg3_utils shelly sof-firmware spectacle ufw-extras xf86-video-amdgpu xl2tpd yarn
+cachyos-rate-mirrors
+s/udo pacman --sync cachyos-v4-mirror-list
+sudo pacman --sync cachyos-v4-mirror-list
+ls
+paru -S cura
+paru -S cura-bin
+config nu
+paru -S cura-bin
+sudo !!
+sudo paru -S cura-bin
+rfkill unblock wifi
+sudo cachyos-bugreport.sh 
+inxi -Farz
+pacman --sync alsa-firmware amd-ucode ark awesome-terminal-fonts base bluez-hid2hci bluez-utils btop btrfs-assistant cachy-update cachyos-emerald-kde-theme-git cachyos-fish-config cachyos-hello cachyos-hooks cachyos-iridescent-kde cachyos-kde-settings cachyos-kernel-manager cachyos-keyring cachyos-micro-settings cachyos-mirrorlist cachyos-nord-kde-theme-git cachyos-packageinstaller cachyos-plymouth-bootanimation cachyos-plymouth-theme cachyos-rate-mirrors cachyos-settings cachyos-snapper-support cachyos-v3-mirrorlist cachyos-v4-mirrorlist cachyos-wallpapers cachyos-zsh-config cantarell-fonts cosmic-session cpupower dmraid docs dolphin duf efitools ethtool ffmpegthumbnailer firefoxpwa fsarchiver glances gn gperf gwenview haruna hdparm http-parser hwdetect hwinfo hyprland inetutils kate kcalc kde-gtk-config kdeplasma-addons kitty kwallet-pam libgsf libva-nvidia-driver limine-snapper-sync linux-cachyos-headers linux-cachyos-lts-headers linux-cachyos-lts-nvidia-open linux-cachyos-nvidia-open logrotate lsscsi man-pages meld metapac mtools nano-syntax-highlighting netctl networkmanager-openvpn nfs-utils notification-daemon os-prober partitionmanager patchutils pavucontrol plasma-browser-integration plasma-firewall plasma-login-manager plasma-systemmonitor plasma-thunderbolt poppler-glib pv python-httplib2 rebuild-detector reflector sddm sg3_utils shelly sof-firmware spectacle ufw-extras xf86-video-amdgpu xl2tpd yarn
+sudo !!
+sudo pacman --sync alsa-firmware amd-ucode ark awesome-terminal-fonts base bluez-hid2hci bluez-utils btop btrfs-assistant cachy-update cachyos-emerald-kde-theme-git cachyos-fish-config cachyos-hello cachyos-hooks cachyos-iridescent-kde cachyos-kde-settings cachyos-kernel-manager cachyos-keyring cachyos-micro-settings cachyos-mirrorlist cachyos-nord-kde-theme-git cachyos-packageinstaller cachyos-plymouth-bootanimation cachyos-plymouth-theme cachyos-rate-mirrors cachyos-settings cachyos-snapper-support cachyos-v3-mirrorlist cachyos-v4-mirrorlist cachyos-wallpapers cachyos-zsh-config cantarell-fonts cosmic-session cpupower dmraid docs dolphin duf efitools ethtool ffmpegthumbnailer firefoxpwa fsarchiver glances gn gperf gwenview haruna hdparm http-parser hwdetect hwinfo hyprland inetutils kate kcalc kde-gtk-config kdeplasma-addons kitty kwallet-pam libgsf libva-nvidia-driver limine-snapper-sync linux-cachyos-headers linux-cachyos-lts-headers linux-cachyos-lts-nvidia-open linux-cachyos-nvidia-open logrotate lsscsi man-pages meld metapac mtools nano-syntax-highlighting netctl networkmanager-openvpn nfs-utils notification-daemon os-prober partitionmanager patchutils pavucontrol plasma-browser-integration plasma-firewall plasma-login-manager plasma-systemmonitor plasma-thunderbolt poppler-glib pv python-httplib2 rebuild-detector reflector sddm sg3_utils shelly sof-firmware spectacle ufw-extras xf86-video-amdgpu xl2tpd yarn
+inxi -N
+pacman -Syu
+sudo !!
+sudo pacman -Syu
+inxi -N
+sudo systemctl restart NetworkManager
+sudo pacman -Syu linux-firmware
+config nu
+pacman -S superslicer-bin
+sudo pacman -S superslicer-bin
+sudo pacman -S superslicer
+sudo pacman -S superslicer-bin
+sudo pacman -S  	superslicer-bin
+paru -S superslicer-bin
+cd .config/
+ls
+mkdir bert
+cd bert/
+ls
+touch Dockerfile
+docker build
+paru -S docker
+docker
+docker build
+docker build .
+docker info
+sudo systemctl start docker
+docker
+docker build .
+sudo usermod -a -G docker
+docker build .
+docker info
+sudo systemctl start docker
+sudo systemctl restart docker
+sudo systemctl status docker
+sudo systemctl status docker.service
+sudo systemctl restart docker.service
+docker info
+systemctl status
+sudo systemctl stop cosmic-greeter
+cd .config/bert/
+docker info
+dm-tool --help
+sudo systemctl status sddm
+sudo systemctl start sddm
+docker info
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl start docker
+docker info
+sudo systemctl status docker
+sudo docker
+cd .config/bert/
+sudo docker build
+sudo docker build .
+n
+nvim
+sudo docker build .
+nvim
+sudo docker build .
+chmod +x install.sh
+sudo docker build .
+cd .config/bert/
+nvim
+sudo docker build .
+cd .config/bert/
+sudo docker build .
+docker exec archlinux -it sh
+docker exec archlinux -it bash
+sudo !!
+sudo docker exec archlinux -it bash
+sudo docker run --rm -it --entrypoint bash archlinux
+sudo docker build .
+cat ${HOME}/
+bash
+./install.sh
+bash export NIX_BUILD_GROUP_ID=951
+exit
+cd .config/bert/
+./install.sh
+config nu
+cd .config/nushell/
+home-manager switch
+home-manager
+config nu
+yadm enter lazygit
+cd .config/nushell/
+config nu
+packages
+nvim
+. 
+n
+nvim
+config nu
+nvim
+nix flake 
+paru -S direnv
+fortune
+htop
+tpm
+paru -R direnv lazygit lazydocker docker k9s yadm nushell neovim
+paru -R direnv docker nushell neovim
+paru -R docker nushell neovim
+config nu
+packages edit
+packages edit
+home-manager switch
+home-manager switch --extra-experimental-features nix-command
+home-manager switch --extra-experimental-features nix-command flakes
+home-manager switch --extra-experimental-features nix-command --extra-experimental-features flakes
+yadm
+neovim
+lazydocker
+lazygit
+nvim
+ls
+yadm enter lazygit
+yadm clone git@github.com:FGRCL/dotfiles.git
+yadm enter lazygit
+n
+nvi
+nix flake 
+nix-shell --packages yadm --run yadm clone git@github.com:FGRCL/dotfiles.git
+nix-shell --packages yadm --run "yadm clone git@github.com:FGRCL/dotfiles.git"
+nix-shell --packages yadm --run "yadm clone -f git@github.com:FGRCL/dotfiles.git"
+nvim
+cat .bashrc
+nvim .bashrc
+nvim 
+cd .config/
+ls
+cd nushell/
+ls
+cd ..
+cd nvim/
+ls
+nix-shell --packages yadm --run "yadm clone -f --recurse-submodules git@github.com:FGRCL/dotfiles.git"
+l 
+ls
+cd ..
+nix-shell --packages yadm --run "yadm clone -f --recurse-submodules git@github.com:FGRCL/dotfiles.git"
+ls .config/nvim/
+nvim
+nvim install.sh
+./install.sh
+nvim install.sh
+cd ..
+cd 
+mv .config/bert/install.sh isntallation.sh
+mv isntallation.sh installation.sh
+mv installation.sh install.sh
+nvim install.sh
+nvim
+mv install.sh .install.sh
+cat .install.sh
+yadm add .install.sh
+yadm add README.md
