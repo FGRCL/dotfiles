@@ -5,6 +5,10 @@
 	home.homeDirectory = "/home/francois";
 	programs.home-manager.enable = true;
 
+	nixpkgs.config = {
+		allowUnfree = true;
+	};
+
 	nix = {
 	  package = pkgs.nix;
 	  settings.experimental-features = [ "nix-command" "flakes" ];
@@ -12,13 +16,25 @@
 
 	home.packages = with pkgs; [
 		fortune
-		htop
 		xclip
+		btop
 
 		#apps
 		firefox
+		_1password-gui
+		alacritty
+		discord
+		cura-appimage
+		orca-slicer
+		kuro
+		freecad
+		openscad
+		super-slicer
+		signal-desktop
+		keymapp
 
 		#development packages
+		git
 		yadm
 		nushell
 		tmux
@@ -26,6 +42,11 @@
 		lazydocker
 		k9s
 		direnv
+		yazi
+		mise
+		
+		#emacs
+		emacs
 
 		#rust
 		rustup
@@ -36,7 +57,7 @@
 		go
 		luarocks
 		lua
-		ruby
+		ruby_4_0
 		php
 		php85Packages.composer
 		nodejs_24
