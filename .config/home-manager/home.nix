@@ -10,28 +10,19 @@
 	};
 
 	nix = {
-	  package = pkgs.nix;
-	  settings.experimental-features = [ "nix-command" "flakes" ];
+		package = pkgs.nix;
+		settings.experimental-features = [ "nix-command" "flakes" ];
+	};
+
+	xdg = {
+		enable = true;
+		mime.enable = true;
 	};
 
 	home.packages = with pkgs; [
 		fortune
 		xclip
 		btop
-
-		#apps
-		firefox
-		_1password-gui
-		alacritty
-		discord
-		cura-appimage
-		orca-slicer
-		kuro
-		freecad
-		openscad
-		super-slicer
-		signal-desktop
-		keymapp
 
 		#development packages
 		git
@@ -43,6 +34,7 @@
 		k9s
 		direnv
 		yazi
+		gh
 		mise
 		
 		#emacs
